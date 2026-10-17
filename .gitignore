@@ -1,44 +1,3 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
 # Build directories
 build/
 Build/
@@ -48,22 +7,47 @@ build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
 
-# Temporary files
+# Compiled object files
+*.o
+*.obj
+
+# Libraries
+*.so
+*.so.*
+*.a
+*.dll
+*.dylib
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.pdb
+*.dwo
+
+# Temporary/editor files
 *.tmp
 *.log
 *.bak
 *.swp
+.vscode/
 
-# vcpkg
+# Python
+.venv/
+
+# Dependency/package manager
 vcpkg_installed/
 
-# debug information files
-*.dwo
-
-# test output & cache
+# Tests / cache
 Testing/
 .cache/
+
+# Project-generated files
+/out/
+imgui.ini
